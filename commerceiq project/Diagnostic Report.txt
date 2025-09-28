@@ -1,0 +1,76 @@
+Diagnostic Report for NovaTech Electronics
+
+Date of Analysis: September 28, 2025
+
+Objective: My goal was to analyze NovaTech's digital shelf presence using the provided data and identify the root causes for their recent revenue fluctuations, which occurred despite an increase in marketing spend.
+
+1. My Analytical Approach
+To get a complete picture of NovaTech's performance, I structured my analysis around three core pillars of e-commerce health:
+
+Availability & Inventory: First, I investigated stock levels to ensure products were available for purchase. This was crucial to identify any wasted ad spend or lost sales opportunities.
+
+Pricing & Competition: Next, I analyzed NovaTech's pricing against their competitors and their own internal policies (MAP). This helped me understand who is winning the sale on the digital shelf.
+
+Advertising Performance: Finally, I evaluated the efficiency of their marketing campaigns by calculating the Return on Ad Spend (ROAS). This was key to determining if their marketing dollars were actually generating a positive return.
+
+To do this, I ingested and analyzed all the provided data files, including internal_catalog_dump.csv, marketplace_snapshot.json, performance_metrics.csv, and inventory_movements.csv.
+
+2. What I Discovered: High-Priority Issues
+Through my analysis, I discovered several critical issues that are the likely cause of NovaTech's revenue challenges.
+
+Finding 1: Declining Ad Performance 📉
+The most significant issue I found was a sharp drop in advertising efficiency for a key product.
+
+Product: NT-EARBUD-X1 (Main Earbud Product)
+
+Discovery: I found that on Amazon, the Return on Ad Spend (ROAS) has declined consistently over the last three weeks, falling from a healthy 4.76 down to 2.75.
+
+Impact: This directly explains the client's core problem. Even with more ad spend, the returns are shrinking. Every dollar they spend on ads is generating less revenue than before, leading to unprofitable growth.
+
+Finding 2: Lost "Buy Box" to Competitors 🛒
+I also found that NovaTech is losing direct sales on its own product listings because third-party competitors are undercutting their price.
+
+Product 1: NT-EARBU-X1-BLK (Black Earbuds)
+
+Details: I saw that the Buy Box is lost to a competitor named 'TechDeals Prime' at a price of $138.99.
+
+Product 2: NT-SPEAKER-Z2 (Portable Speaker)
+
+Details: Similarly, the Buy Box here is lost to 'FastShip Electronics' at a price of $87.49.
+
+Impact: This is a direct leak of revenue. When a customer clicks "Add to Cart" on these pages, the sale goes to a competitor, not to NovaTech.
+
+Finding 3: Critical Inventory Issues 📦
+Finally, I identified key products that were unavailable for purchase, representing significant missed sales.
+
+Product 1: NT-TABLET-P6
+
+Details: The product is listed as "temporarily_unavailable" on Amazon. I confirmed that ad campaigns for this product are paused, which is good, but it doesn't solve the core problem of lost revenue.
+
+Product 2: NT-SPEAKER-Z2-GRY
+
+Details: This product is flagged as "low_stock", which means it is at high risk of selling out completely.
+
+Impact: No sales can be made on out-of-stock products, and customers are often deterred by low stock warnings.
+
+3. My Recommendations
+Based on my findings, I recommend the following actions, prioritized by urgency and impact.
+
+Priority 1: Fix Ad Performance (Immediate)
+Action: I recommend a full and immediate audit of the Amazon ad campaigns for SKU NT-EARBUD-X1.
+
+Focus: The audit should investigate competitor bidding on primary keywords and analyze the search term reports to eliminate any wasteful or irrelevant clicks.
+
+Priority 2: Win Back the Buy Box (Immediate)
+Action: For the NT-SPEAKER-Z2 and NT-EARBU-X1-BLK, I recommend investigating the competitor pricing.
+
+Focus: The first step should be to check if the competitor prices ($87.49 and $138.99) violate NovaTech's Minimum Advertised Price (MAP) policy.
+
+If it is a violation: I advise them not to price match and to immediately notify their compliance team to issue a violation notice.
+
+If it is not a violation: I recommend they consider a strategic price match to reclaim the Buy Box.
+
+Priority 3: Solve Inventory Gaps (Urgent)
+Action: I recommend escalating the stock status of NT-TABLET-P6 and NT-SPEAKER-Z2-GRY to the inventory and supply chain teams.
+
+Focus: They need to expedite replenishment for these SKUs. Ad campaigns should be prepared for reactivation the moment the products are back in stock to regain sales momentum.

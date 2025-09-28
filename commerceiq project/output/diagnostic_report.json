@@ -1,0 +1,20 @@
+[
+    {
+        "issue_type": "Critical: Lost Buy Box",
+        "product_sku": "NT-EARBU-X1-BLK",
+        "details": "The Buy Box for 'NovaTech X1 Earbuds (Black)' is won by 'TechDeals Prime' at $138.99. NovaTech is losing sales.",
+        "recommendation": "Investigate pricing. Check for MAP violations and consider a price match if within policy."
+    },
+    {
+        "issue_type": "Critical: Lost Buy Box",
+        "product_sku": "NT-SPEAKER-Z2",
+        "details": "The Buy Box for 'NovaTech Portable Bluetooth Speaker Z2' is won by 'FastShip Electronics' at $87.49. NovaTech is losing sales.",
+        "recommendation": "Investigate pricing. Check for MAP violations and consider a price match if within policy."
+    },
+    {
+        "issue_type": "Concerning Trend: Declining Ad Performance",
+        "product_sku": "NT-EARBUD-X1",
+        "details": "ROAS for the main earbud product on Amazon has declined for three consecutive weeks, from 4.77 down to 4.14. This indicates decreasing ad efficiency.",
+        "recommendation": "Audit the Amazon ad campaigns for this SKU. Investigate competitor bidding on primary keywords and analyze the search term report for wasted spend."
+    }
+]
